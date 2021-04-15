@@ -1,0 +1,788 @@
+@media (min-width: 769px) and (max-width: 1024px) {
+  header .header__room {
+    display: flex;
+    width: 100px;
+    margin-right: 2%;
+  }
+
+  .room__name {
+    display: none;
+  }
+
+  .room__all {
+    display: none;
+  }
+
+  .header__room-inner {
+    display: flex;
+    justify-content: space-around !important;
+  }
+
+  .devices__inner {
+    background-size: 100%;
+    background-position: center bottom 13%;
+    height: 600px;
+  }
+
+  .lader__inner {
+    width: 100%;
+    background-size: contain;
+    background-position: bottom -37px right;
+  }
+
+  .lader__left {
+    padding: 3% 0% 0% 5%;
+  }
+
+  .lader__title {
+    font-size: 60px;
+  }
+
+  .lader__title-discription {
+    font-size: 18px;
+  }
+
+  .devices__inner {
+    background-size: 110%;
+  }
+
+  .awards__title {
+    padding-top: 4%;
+  }
+
+  .how__card {
+    width: 355px;
+    height: 401px;
+  }
+
+  .points__inner {
+    padding-bottom: 5%;
+  }
+
+  .points__left {
+    padding: 14% 0% 0% 10%;
+
+  }
+
+  .points__inner {
+    background-size: contain;
+  }
+
+  .season__left {
+    background-size: contain;
+  }
+
+  .season__title {
+    font-size: 80px;
+  }
+
+  .platform__text ul span {
+    font-size: 39px;
+  }
+
+  .platform__rigt {
+    height: 300px;
+  }
+
+  footer {
+    background-position: center;
+  }
+
+  .first .first__mail {
+    width: 513px;
+  }
+
+  .first__btn {
+    right: 25%;
+  }
+
+  .mission {
+    padding-bottom: 45px;
+  }
+
+  .how__title {
+    padding-bottom: 5%;
+  }
+
+  .mission__inner-card {
+    padding: 0px 0px 60px 36px;
+    flex-direction: column;
+  }
+
+  .slider__card .slick-dots {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+  }
+
+  .slider__card .slick-dots li button {
+    border-radius: 50%;
+    font-size: 0px;
+    margin: 5px;
+    width: 10px;
+    height: 10px;
+    opacity: 0.2;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    background-color: #fff;
+  }
+
+  .slick-dots li.slick-active button {
+    background-color: #E32D5C;
+  }
+}
+
+@media (min-width: 425px) and (max-width: 769px) {
+
+  .header__right,
+  .header__room {
+    display: none !important;
+  }
+
+  .menu-burger__header {
+    position: relative;
+    /* задаем относительное позиционирование */
+    width: 40px;
+    /* определяем размеры блока */
+    height: 35px;
+    display: block !important;
+    margin-left: 10px;
+    left: 85%;
+  }
+
+  .menu-burger__header span,
+  .menu-burger__header:after,
+  .menu-burger__header:before {
+    height: 3px;
+    width: 100%;
+    position: absolute;
+    background: #fff;
+    margin: 0 auto;
+  }
+
+  .menu-burger__header span {
+    top: 16px;
+  }
+
+  .menu-burger__header:after,
+  .menu-burger__header:before {
+    content: '';
+  }
+
+  .menu-burger__header:after {
+    bottom: 5px;
+  }
+
+  .menu-burger__header:before {
+    top: 5px;
+  }
+
+  .menu-burger__header.open-menu span {
+    opacity: 0;
+    transition: 0.5s;
+  }
+
+  .menu-burger__header.open-menu:before {
+    transform: rotate(38deg);
+    top: 16px;
+    transition: 0.4s;
+  }
+
+  .menu-burger__header.open-menu:after {
+    transform: rotate(-38deg);
+    bottom: 16px;
+    transition: 0.4s;
+  }
+
+  .header__menu {
+    display: block !important;
+  }
+
+  .header__menu li {
+    margin: 40px 0px 40px 33px;
+    font-size: 14px;
+  }
+
+  header .header__nav ul {
+    display: block;
+  }
+
+  .header__nav.open-menu {
+    left: 71%;
+  }
+
+  header .header__left {
+    display: block;
+  }
+
+  header .header__nav ul li {
+    margin-right: 40px;
+    padding: 5px 5px;
+    border-bottom: 1px solid #E32D5C;
+  }
+
+  .header__nav {
+    display: block !important;
+    position: absolute;
+    top: 82px;
+    left: 69%;
+    background: #313338;
+    box-shadow: #ccc;
+    box-shadow: 0 4px 2px -2px rgba(36, 36, 36, 0.17);
+    left: -100%;
+    transition: all 0.4s ease;
+  }
+
+  .header__left {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+  }
+
+  .points__title-discription {
+    line-height: 36px;
+  }
+
+  // start-lader
+  .lader__inner {
+    background-size: contain;
+    width: 100%;
+  }
+
+  .lader__title {
+    font-size: 60px;
+  }
+
+  .lader__left {
+    padding: 5% 0% 0% 8%;
+  }
+
+  .devices__title {
+    font-size: 39px;
+  }
+
+  .devices__discription {
+    padding-left: 10px;
+    font-size: 15px;
+  }
+
+  .awards__title {
+    padding-top: 0%;
+    text-align: center;
+    font-size: 35px;
+  }
+
+  .awards__card-inner {
+    flex-wrap: wrap;
+  }
+
+  .awards__card {
+    margin: 3%;
+  }
+
+  .mission__title {
+    font-size: 35px;
+  }
+
+  .mission__discription {
+    font-size: 14px;
+  }
+
+  .mission__inner-card {
+    padding: 0px 0px 40px 60px;
+    flex-direction: column;
+  }
+
+  .slider__card .slick-dots {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    padding-right: 15%;
+  }
+
+  .slider__card .slick-dots li button {
+    border-radius: 50%;
+    font-size: 0px;
+    margin: 5px;
+    width: 10px;
+    height: 10px;
+    opacity: 0.2;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    background-color: #fff;
+  }
+
+  .how__card-inner {
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  .points__inner {
+    background-position: right 65% bottom 45%;
+  }
+
+  .points__rigt {
+    width: 501px;
+    background-position: bottom -50px right 0px;
+  }
+
+  .season__title {
+    font-size: 69px;
+  }
+
+  .season__left {
+    background-size: contain;
+    width: 400px;
+    height: auto;
+  }
+
+  .season__rigt {
+    padding: 3% 2% 0% 3%;
+  }
+
+  .platform__rigt {
+    width: 92%;
+    height: 500px;
+  }
+
+  .platform__text ul span {
+    font-size: 23px;
+  }
+
+  .platform__left {
+    width: 43%;
+  }
+
+  footer {
+    padding-top: 10%;
+    background-position: center;
+  }
+
+  .first .first__mail {
+    width: 470px;
+  }
+
+  .first__btn {
+    width: 140px;
+    height: 53px;
+    right: 19%;
+  }
+
+  // end-lader
+  .slick-dots li.slick-active button {
+    background-color: #E32D5C;
+  }
+
+  .mission__inner-card {
+    padding: 0px 0px 60px 36px;
+    flex-direction: column;
+  }
+
+  .slider__card .slick-dots {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+  }
+
+  .slider__card .slick-dots li button {
+    border-radius: 50%;
+    font-size: 0px;
+    margin: 5px;
+    width: 10px;
+    height: 10px;
+    opacity: 0.2;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    background-color: #fff;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 443px) {
+  .mission__inner-card {
+    padding: 0% 10% 5% 15%;
+  }
+
+  .header__right,
+  .header__room {
+    display: none !important;
+  }
+
+  .menu-burger__header {
+    position: relative;
+    /* задаем относительное позиционирование */
+    width: 40px;
+    /* определяем размеры блока */
+    height: 35px;
+    display: block !important;
+    margin-left: 10px;
+    left: 85%;
+  }
+
+  .menu-burger__header span,
+  .menu-burger__header:after,
+  .menu-burger__header:before {
+    height: 3px;
+    width: 100%;
+    position: absolute;
+    background: #fff;
+    margin: 0 auto;
+  }
+
+  .menu-burger__header span {
+    top: 16px;
+  }
+
+  .menu-burger__header:after,
+  .menu-burger__header:before {
+    content: '';
+  }
+
+  .menu-burger__header:after {
+    bottom: 5px;
+  }
+
+  .menu-burger__header:before {
+    top: 5px;
+  }
+
+  .menu-burger__header.open-menu span {
+    opacity: 0;
+    transition: 0.5s;
+  }
+
+  .menu-burger__header.open-menu:before {
+    transform: rotate(38deg);
+    top: 16px;
+    transition: 0.4s;
+  }
+
+  .menu-burger__header.open-menu:after {
+    transform: rotate(-38deg);
+    bottom: 16px;
+    transition: 0.4s;
+  }
+
+  .header__menu {
+    display: block !important;
+  }
+
+  .header__menu li {
+    margin: 40px 0px 40px 33px;
+    font-size: 14px;
+  }
+
+  header .header__nav ul {
+    display: block;
+  }
+
+  .header__nav.open-menu {
+    left: 47%;
+    width: 54%;
+  }
+
+  header .header__left {
+    display: block;
+  }
+
+  header .header__nav ul li {
+    margin-right: 40px;
+    padding: 5px 5px;
+    border-bottom: 1px solid #E32D5C;
+  }
+
+  .header__nav {
+    display: block !important;
+    position: absolute;
+    top: 82px;
+    left: 69%;
+    background: #313338;
+    box-shadow: #ccc;
+    box-shadow: 0 4px 2px -2px rgba(36, 36, 36, 0.17);
+    left: -100%;
+    transition: all 0.4s ease;
+  }
+
+  .header__left {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+  }
+
+  .points__title-discription {
+    line-height: 36px;
+  }
+
+  .header__logo {
+    position: relative;
+    right: 40px;
+  }
+
+  .lader {
+    background-image: none;
+  }
+
+  .lader__img-bg {
+    display: block;
+    background-image: url(../img/laderbg2.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 320px;
+  }
+
+  .lader__inner {
+    background-image: none;
+    width: 100%;
+    flex-direction: column;
+  }
+
+  .lader__left {
+    width: 100%;
+    padding: 0%;
+  }
+
+  .lader__title {
+    font-size: 30px;
+    text-align: center;
+    margin: 0 auto;
+  }
+
+  .lader__title-discription {
+    width: 287px;
+    font-size: 16px;
+    text-align: center;
+    margin: 0 auto;
+    padding: 24px 0px 32px 0px;
+  }
+
+  .lader__btn {
+    margin: 0 auto;
+  }
+
+  .awards__card-inner {
+    flex-wrap: wrap;
+  }
+
+  .awards__card {
+    margin: 2%;
+    height: 342px;
+  }
+
+  .awards__title {
+    font-size: 24px;
+    text-align: center;
+    width: 70%;
+    font-weight: bold;
+    margin: 0 auto;
+  }
+
+  .awards__discription {
+    font-size: 16px;
+    width: 57%;
+    line-height: 26px;
+    margin: 0 auto;
+  }
+
+  .mission__title {
+    font-size: 24px;
+    width: 58%;
+    margin: 0 auto;
+  }
+
+  .how__card-inner {
+    flex-direction: column;
+  }
+
+  .how__card {
+    margin: 0 auto;
+  }
+
+  .how__card-three {
+    width: 100%;
+    height: 330px;
+  }
+
+  .points__inner {
+    flex-direction: column;
+    position: relative;
+  }
+
+  .points__left {
+    padding: 5% 0% 10% 16%;
+    position: absolute;
+  }
+
+  .points__title {
+    font-size: 24px;
+    text-align: center;
+    margin: 0 auto;
+    padding: 10% 0% 10% 0%;
+    width: 60%;
+    font-weight: bold;
+  }
+
+  .points__title-discription {
+    padding: 40% 0% 5% 10%;
+    font-size: 16px;
+    width: 234px;
+    text-align: center;
+    margin: 0 auto;
+  }
+
+  .points__inner {
+    background-position: bottom;
+  }
+
+  .slider__card .slick-dots {
+    padding-right: 23%;
+  }
+
+  .mission__inner-card {
+    padding: 0px 0px 40px 80px;
+  }
+
+  .points__btn {
+    margin: 0 auto;
+  }
+
+  .season__inner {
+    padding-bottom: 0%;
+    flex-direction: column;
+  }
+
+  .season__left {
+    background-size: cover;
+    width: 300px;
+    height: 300px;
+    margin: 0 auto;
+  }
+
+  .season__rigt {
+    margin: 0 auto;
+  }
+
+  .season__title {
+    text-align: center;
+    margin: 0 auto;
+    font-size: 50px;
+    padding: 10% 0%;
+  }
+
+  .season__title-discription {
+    font-size: 16px;
+    text-align: center;
+  }
+
+  .platform__inner {
+    flex-direction: column-reverse;
+  }
+
+  .platform__rigt {
+    width: 90%;
+    height: 300px;
+    background-position: right center;
+  }
+
+  .platform__text {
+    font-size: 16px;
+    text-align: center;
+    padding-right: 10%;
+
+    ul {
+      li {
+        list-style: none;
+      }
+    }
+  }
+
+  .platform__left {
+    width: 100%;
+  }
+
+  .devices__left {
+    top: -20%;
+  }
+
+  .devices-right {
+    width: 100%;
+  }
+
+  .devices {
+    height: 750px;
+  }
+
+  .devices__title {
+    font-size: 24px;
+    padding: 10% 0%;
+    text-align: center;
+  }
+
+  .devices__inner {
+    flex-direction: column-reverse;
+    position: relative;
+    background-position: center;
+    background-size: cover;
+  }
+
+  .first {
+    flex-direction: column;
+  }
+
+  .first__btn {
+    position: initial;
+    width: 290px;
+    height: 53px;
+    margin-top: 3%;
+  }
+
+  .first .first__mail {
+    width: 290px;
+  }
+
+  .prev {
+    right: 90%;
+  }
+
+  .next {
+    left: 73%;
+  }
+
+  .slick-dots li.slick-active button {
+    background-color: #E32D5C;
+  }
+
+  .mission__inner-card {
+    padding: 0% 15% 60px 15%;
+    flex-direction: column;
+  }
+
+  .slider__card .slick-dots {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+  }
+
+  .slider__card .slick-dots li button {
+    border-radius: 50%;
+    font-size: 0px;
+    margin: 5px;
+    width: 10px;
+    height: 10px;
+    opacity: 0.2;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    background-color: #fff;
+  }
+
+  footer {
+    background-position: center;
+  }
+}
